@@ -1,17 +1,15 @@
-# dummy
+# CryptoSocket
 
-A new Flutter project.
+A new Flutter project with the help of Websocket API 
 
-## Getting Started
+## Project description
 
 This project is a starting point for a Flutter application.
+Where you get to see real time change in price of crypto currencies, and also shows the percentage increment 
+decrement in the price.
 
-A few resources to get you started if this is your first Flutter project:
+A few resources project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# CryptoSocket" 
+![WhatsApp Image 2021-12-31 at 10 15 16 PM (1)](https://user-images.githubusercontent.com/55257452/147833549-2724ad41-1712-4d64-a557-9d06bdbbbc1d.jpeg)
+![WhatsApp Image 2021-12-31 at 10 15 17 PM](https://user-images.githubusercontent.com/55257452/147833551-27519ad8-0906-4845-963d-f4712eb83c67.jpeg)

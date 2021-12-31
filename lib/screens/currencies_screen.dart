@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:dummy/models/crypto_data_model.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:web_socket_channel/io.dart';
 
@@ -92,14 +93,14 @@ class _CryptoCurrenciesState extends State<CryptoCurrencies> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text(snapshot.data[index].s
-                                    .toString()
-                                    .substring(
-                                        0,
-                                        snapshot.data[index].s
-                                                .toString()
-                                                .length -
-                                            3)),
+                                Text(
+                                  snapshot.data[index].s.toString().substring(
+                                      0,
+                                      snapshot.data[index].s.toString().length -
+                                          3),
+                                  style: const TextStyle(
+                                      fontWeight: FontWeight.bold),
+                                ),
                                 Padding(
                                   padding:
                                       const EdgeInsets.fromLTRB(5, 15, 4, 5),

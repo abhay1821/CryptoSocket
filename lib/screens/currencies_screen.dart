@@ -114,6 +114,7 @@ class _CryptoCurrenciesState extends State<CryptoCurrencies> {
                             ),
                             subtitle: Text(snapshot.data[index].s),
                             trailing: Container(
+                              margin: const EdgeInsets.all(8),
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   border: Border.all(
@@ -137,7 +138,16 @@ class _CryptoCurrenciesState extends State<CryptoCurrencies> {
                                             ? Colors.green
                                             : Colors.red),
                                     Text(
-                                        "${double.parse(snapshot.data[index].percent).toStringAsFixed(3)}%"),
+                                      "${double.parse(snapshot.data[index].percent).toStringAsFixed(2)}%",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: double.parse(
+                                                      snapshot.data[index].c) >
+                                                  double.parse(
+                                                      snapshot.data[index].o)
+                                              ? Colors.green
+                                              : Colors.red),
+                                    ),
                                   ],
                                 ),
                               ),

@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:dummy/models/crypto_data_model.dart';
 import 'package:flutter/material.dart';
 import 'package:web_socket_channel/io.dart';
-import 'package:web_socket_channel/web_socket_channel.dart';
 
 class CryptoCurrencies extends StatefulWidget {
   const CryptoCurrencies({Key? key}) : super(key: key);
